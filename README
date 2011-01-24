@@ -1,17 +1,18 @@
 # rss-feeder
 
-FIXME: write description
+Simple RSS Feeder Example Project
 
 ## Usage
-
-FIXME: write
+(rss.stat/find-items-keywords
+        (map :items (flatten
+            (rss.data/parse-rss
+                (rss.feed/get-feed "http://feeds.delicious.com/v2/rss/popular/programming"))))
+                ["Clojure" "Python" "Groovy"])
 
 ## Installation
 
-FIXME: write
+TBD
 
 ## License
-
-Copyright (C) 2010 FIXME
 
 Distributed under the Eclipse Public License, the same as Clojure.
