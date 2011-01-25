@@ -2,9 +2,8 @@
   (:require [clojure.xml :as xml])
   (:import  [java.io ByteArrayInputStream]))
 
-(defrecord rss-root [channels])
-(defrecord rss-channel [title description link lastbuilddate pubdate items])
-(defrecord rss-item [title description link guid pubdate])
+(defrecord RssChannel [title description link last-build-date pub-date items])
+(defrecord RssItem [title description link guid pub-date])
 
 (defn create-rss-channel [map items]
   (let [title (:title map)
@@ -12,7 +11,7 @@
         description (:description map)
         link (:link map)
         lastBuildDate (:lastBuildDate map)]
-    (rss-channel. title description link lastBuildDate pubDate items)))
+    (RssChannel. title description link lastBuildDate pubDate items)))
 
 (defn create-item [item-data]
   (let [description (:description item-data)
@@ -21,10 +20,13 @@
         link (:link item-data)
         title (:title item-data)
         ]
-    (rss-item. title description link guid pubDate)))
+    (RssItem. title description link guid pubDate)))
+
+(defn zipmap-tag-content [item]
+  (zipmap (map :tag item) (map :content item)))
 
 (defn parse-item [item-data]
-  (create-item (zipmap (map :tag item-data) (map :content item-data))))
+  (create-item (zipmap-tag-content item-data)))
 
 (defn parse-items [items-data]
   (map parse-item items-data))
@@ -32,8 +34,8 @@
 (defn parse-channel [channel-content]
   (loop [x (:content channel-content)]
     (create-rss-channel
-      (into {} (filter #(not (= :item (key %))) (zipmap (map :tag x) (map :content x))))
-      (parse-items (map :content (into [] (filter #(= :item (:tag %)) x)))))
+      (filter #(not= :item (key %)) (zipmap-tag-content x))
+      (parse-items (map :content (filter #(= :item (:tag %)) x))))
       ))
 
 (defn parse-rss [rss]
