@@ -26,7 +26,7 @@
 
 ; Main function for command line access
 (defn -main [& args]
-  (let [fields [:link :titlte]]
+  (let [fields [:link :title]]
     (with-command-line args
       "Usage: rss-filter [-k | -ks ] "
       [[filter-by-keyword? k? "<URL> <Keyword> Filter RSS feed by given keyword" false]

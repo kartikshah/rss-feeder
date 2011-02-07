@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204629df-6246-47d6-9dd7-7a3aa18b4d22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.markdown" afterPath="$PROJECT_DIR$/README.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rss/core.clj" afterPath="$PROJECT_DIR$/src/rss/core.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rss/print.clj" afterPath="$PROJECT_DIR$/src/rss/print.clj" />
     </list>
     <ignored path="rss-feeder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,16 +75,16 @@
       <file leaf-file-name="feed.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rss/feed.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+            <state line="3" column="27" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.markdown" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="99" selection-start="316" selection-end="316" vertical-scroll-proportion="0.296875">
+            <state line="15" column="99" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,7 +93,7 @@
       <file leaf-file-name="core.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rss/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="79" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0">
+            <state line="9" column="48" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,7 +102,7 @@
       <file leaf-file-name="stat.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rss/stat.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+            <state line="5" column="63" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,16 +111,16 @@
       <file leaf-file-name="data.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rss/data.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="2" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
+            <state line="7" column="90" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="print.clj" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="print.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/rss/print.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.059375">
               <folding />
             </state>
           </provider>
@@ -147,11 +149,11 @@
         <option value="$PROJECT_DIR$/src/rss/stat.clj" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/src/rss/print.clj" />
-        <option value="$PROJECT_DIR$/src/rss/core.clj" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/rss/data.clj" />
         <option value="$PROJECT_DIR$/README.markdown" />
+        <option value="$PROJECT_DIR$/src/rss/core.clj" />
+        <option value="$PROJECT_DIR$/src/rss/print.clj" />
       </list>
     </option>
   </component>
@@ -474,7 +476,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.095619656" sideWeight="0.5692619" order="1" side_tool="true" content_ui="tabs" x="55" y="587" width="305" height="989" />
+      <window_info id="Leiningen" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.095619656" sideWeight="0.578362" order="1" side_tool="true" content_ui="tabs" x="55" y="587" width="305" height="989" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -483,9 +485,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.095619656" sideWeight="0.42264915" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.095619656" sideWeight="0.41354904" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42628205" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1135" y="91" width="643" height="999" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42628205" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1135" y="91" width="643" height="999" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -536,9 +538,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rss/stat.clj">
+    <entry file="file://$PROJECT_DIR$/README.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+        <state line="15" column="99" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -550,37 +552,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rss/feed.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rss/data.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="2" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
+        <state line="7" column="90" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rss/print.clj">
+    <entry file="file://$PROJECT_DIR$/src/rss/stat.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+        <state line="5" column="63" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rss/feed.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rss/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="79" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0">
+        <state line="9" column="48" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.markdown">
+    <entry file="file://$PROJECT_DIR$/src/rss/print.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="99" selection-start="316" selection-end="316" vertical-scroll-proportion="0.296875">
+        <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.059375">
           <folding />
         </state>
       </provider>
