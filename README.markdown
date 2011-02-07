@@ -13,4 +13,4 @@
 `lein uberjar rss-filter.jar`
 
 ##Examples
-`java -jar rss-filter.jar -k "http://feeds.delicious.com/v2/rss/popular/programming" "Programming"
+`java -jar rss-filter.jar -k "http://feeds.delicious.com/v2/rss/popular/programming" "Programming"`
