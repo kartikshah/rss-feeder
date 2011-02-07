@@ -38,9 +38,12 @@
       (parse-items (map :content (filter #(= :item (:tag %)) x))))
       ))
 
+; Parses RSS Feed
 (defn parse-rss [rss]
+  "Parses given RSS URL"
   (let [rss-data (ByteArrayInputStream. (.getBytes rss "UTF-8"))]
   (for [x (xml-seq (xml/parse rss-data))
         :when (= :rss (:tag x))]
     (map parse-channel (:content x)))))
+
 
