@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204629df-6246-47d6-9dd7-7a3aa18b4d22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rss/core.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rss/print.clj" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rss/data.clj" afterPath="$PROJECT_DIR$/src/rss/data.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.markdown" afterPath="$PROJECT_DIR$/README.markdown" />
     </list>
     <ignored path="rss-feeder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,19 +79,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.markdown" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.markdown" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="41" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+            <state line="7" column="4" selection-start="89" selection-end="89" vertical-scroll-proportion="0.13854167">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="core.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rss/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="79" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.74234426">
+            <state line="37" column="79" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,8 +150,8 @@
         <option value="$PROJECT_DIR$/src/rss/print.clj" />
         <option value="$PROJECT_DIR$/src/rss/core.clj" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/README.markdown" />
         <option value="$PROJECT_DIR$/src/rss/data.clj" />
+        <option value="$PROJECT_DIR$/README.markdown" />
       </list>
     </option>
   </component>
@@ -557,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rss/feed.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="22" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
@@ -587,7 +573,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rss/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="79" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.74234426">
+        <state line="37" column="79" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="89" selection-end="89" vertical-scroll-proportion="0.13854167">
           <folding />
         </state>
       </provider>

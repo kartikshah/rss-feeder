@@ -3,7 +3,17 @@
 ## Usage
 
 ### Help on the available commands
-`java -jar rss-filter -h`
+`
+java -jar rss-filter -h
+    `
 
 ### Filter rss feed
-`java -jar rss-filter -k <URL> <keyword>`
+`
+java -jar rss-filter -k <URL> <keyword>
+`
+
+
+## Build project
+`
+lein uberjar rss-filter.jar
+`
