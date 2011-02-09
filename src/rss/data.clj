@@ -13,13 +13,12 @@
         lastBuildDate (:lastBuildDate map)]
     (RssChannel. title description link lastBuildDate pubDate items)))
 
+(defn create-rss-channel [map items]
+  (let [{:keys [title pubDate description link lastBuildDate]} map]
+  (RssChannel. title description link lastBuildDate pubDate items)))
+
 (defn create-item [item-data]
-  (let [description (:description item-data)
-        pubDate (:pubDate item-data)
-        guid (:guid item-data)
-        link (:link item-data)
-        title (:title item-data)
-        ]
+  (let [{:keys [title description link guid pubDate]} item-data]
     (RssItem. title description link guid pubDate)))
 
 (defn zipmap-tag-content [item]
