@@ -6,14 +6,6 @@
 (defrecord RssItem [title description link guid pub-date])
 
 (defn create-rss-channel [map items]
-  (let [title (:title map)
-        pubDate (:pubDate map)
-        description (:description map)
-        link (:link map)
-        lastBuildDate (:lastBuildDate map)]
-    (RssChannel. title description link lastBuildDate pubDate items)))
-
-(defn create-rss-channel [map items]
   (let [{:keys [title pubDate description link lastBuildDate]} map]
   (RssChannel. title description link lastBuildDate pubDate items)))
 
