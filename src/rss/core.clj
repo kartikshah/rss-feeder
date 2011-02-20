@@ -7,8 +7,8 @@
   (:use [clojure.contrib command-line]))
 
 ; Utility function to wrap output
-(defn execute-command [func fields & arguments]
-  (print/print-rss-item (apply func (map str (first arguments))) fields))
+(defn execute-command [func display-fields & arguments]
+  (print/print-rss-item (apply func (map str (first arguments))) display-fields))
 
 (defn get-rss-items [url]
   (flatten (data/parse-rss (feed/get-feed url))))
