@@ -5,13 +5,11 @@
 (defrecord RssChannel [title description link last-build-date pub-date items])
 (defrecord RssItem [title description link guid pub-date])
 
-(defn create-rss-channel [map items]
-  (let [{:keys [title pubDate description link lastBuildDate]} map]
-  (RssChannel. title description link lastBuildDate pubDate items)))
+(defn create-rss-channel [{:keys [title pubDate description link lastBuildDate]} items]
+  (RssChannel. title description link lastBuildDate pubDate items))
 
-(defn create-item [item-data]
-  (let [{:keys [title description link guid pubDate]} item-data]
-    (RssItem. title description link guid pubDate)))
+(defn create-item [{:keys [title description link guid pubDate]}]
+    (RssItem. title description link guid pubDate))
 
 (defn zipmap-tag-content [item]
   (zipmap (map :tag item) (map :content item)))
